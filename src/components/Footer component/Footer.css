@@ -1,0 +1,37 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 24px 40px;
+  border-top: 1px solid #e9ecef;
+  margin:100px;
+}
+
+.footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes padding */
+}
+
+.footer ul li {
+  margin-right: 24px; /* Spaces out the links */
+}
+
+.footer ul a {
+  color: #555;
+  text-decoration: none;
+}
+
+.footer ul a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.footer p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}

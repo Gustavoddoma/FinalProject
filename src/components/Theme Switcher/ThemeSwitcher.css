@@ -1,0 +1,29 @@
+/* themeswitcher.css (or use Tailwind classes directly) */
+/* index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Default styles for buttons */
+.btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.5rem;
+  background-color: #491eff;
+  color: #d4dbff;
+}
+
+/* Dark mode styles for buttons */
+.dark-mode .btn {
+  background-color: #7582ff;
+  color: #050617;
+}
+
+/* Dark mode styles for the entire website */
+.dark-mode {
+  /* Add styles to darken the entire website */
+  background-color: #7582ff; /* Example dark background color */
+  color: #050617; /* Example light text color */
+}
